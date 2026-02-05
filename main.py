@@ -6,7 +6,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 from bson import ObjectId
 
-This_Api = "http://127.0.0.1:8000/get_blog/"
+This_Api = ""
 load_dotenv()
 mongo_uri = os.getenv("MONGO_URI")
 
